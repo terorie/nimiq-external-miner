@@ -1,0 +1,23 @@
+{
+  "name": "nimiq-external-miner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "author": "Mat",
+  "license": "AGPL-3.0-or-later",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp build",
+    "rebuild": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "bindings": "^1.4.0",
+    "json5": "^2.1.0",
+    "nan": "^2.12.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^3.8.0"
+  }
+}
